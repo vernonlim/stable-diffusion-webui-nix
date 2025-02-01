@@ -37,6 +37,12 @@ in {
       { name = "peft"; }
       { name = "opencv-python"; }
       { name = "imageio-ffmpeg"; }
+      { name = "gitpython"; }
+      { name = "pygithub"; }
+      { name = "matrix-client"; op = "=="; spec = "0.4.0"; }
+      { name = "typer"; }
+      { name = "rich"; }
+      { name = "toml"; }
     ];
 
     installInstructions = ./install-instructions-cuda.json;
